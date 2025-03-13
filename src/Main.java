@@ -15,7 +15,7 @@ throw new ParametrosInvalidosException();
                 System.out.println("o intervalo entre os numeros é: " + contador);
             }
         }catch (ParametrosInvalidosException e){
-            System.out.println("O primeiro valor digitado deve ser maior do que o segundo!!");
+            System.out.println("O primeiro valor digitado deve ser maior do que o segundo valor!!");
         }
     }
 }
